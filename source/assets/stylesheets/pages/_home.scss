@@ -1,1 +1,30 @@
-// Specific CSS for your home-page
+.main-wrapper {
+  padding: 32px;
+  max-height: 100vh;
+}
+.content-wrapper {
+  position: relative;
+  overflow-y: scroll;
+  max-height: calc(100vh - 64px);
+}
+.menu-icon {
+  position: absolute;
+  top: 32px;
+  left: 32px;
+  z-index: 999;
+  width: 40px;
+  padding: 10px;
+  cursor: pointer;
+}
+.menu-icon-line {
+  display: block;
+  height: 2px;
+  width: 100%;
+  background-color: $onyx;
+  margin-bottom: 4px;
+  border-radius: 2px;
+}
+.header {
+  height: 100%;
+  background-color: $tart-orange;
+}
