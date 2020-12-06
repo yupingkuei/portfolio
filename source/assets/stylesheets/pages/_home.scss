@@ -1,6 +1,21 @@
+// wrappers
 .main-wrapper {
   padding: 32px;
   max-height: 100vh;
+  position: relative;
+}
+.social-icons {
+  position: absolute;
+  top: 40%;
+  right: 8px;
+  align-items: center;
+  ul {
+    list-style-type: none;
+    i {
+      width: 16px;
+      text-align: center;
+    }
+  }
 }
 .content-wrapper {
   position: relative;
@@ -24,6 +39,7 @@
   margin-bottom: 4px;
   border-radius: 2px;
 }
+// sections
 .header {
   height: 100%;
   background-color: $tart-orange;
