@@ -23,23 +23,6 @@
   overflow-y: scroll;
   max-height: calc(100vh - 64px);
 }
-.menu-icon {
-  position: absolute;
-  top: 32px;
-  left: 32px;
-  z-index: 999;
-  width: 40px;
-  padding: 10px;
-  cursor: pointer;
-}
-.menu-icon-line {
-  display: block;
-  height: 2px;
-  width: 100%;
-  background-color: $onyx;
-  margin-bottom: 4px;
-  border-radius: 2px;
-}
 // sections
 .header {
   min-height: calc(100vh - 64px);
@@ -49,6 +32,7 @@
     font-family: $header;
     writing-mode: vertical-lr;
     text-orientation: upright;
+    // careful
     padding: 34px 0 34px 0;
   }
   .header-left {
