@@ -1,9 +1,19 @@
 // Import Google fonts
-@import url('https://fonts.googleapis.com/css?family=Nunito:400,700|Work+Sans:400,700&display=swap');
+@import url("https://fonts.googleapis.com/css?family=Nunito:400,700|Work+Sans:400,700&display=swap");
+// potential sub header
+@import url("https://fonts.googleapis.com/css2?family=Cabin+Sketch:wght@400;700&family=Cuprum:wght@700&family=Fira+Sans+Extra+Condensed:ital,wght@0,600;1,900&family=Passion+One&display=swap");
+// potential header
+@import url("https://fonts.googleapis.com/css2?family=Krona+One&display=swap");
 
 // Define fonts for body and headers
 $body-font: "Work Sans", "Helvetica", "sans-serif";
 $headers-font: "Nunito", "Helvetica", "sans-serif";
+
+$sketch: "Cabin Sketch", cursive;
+$cuprum: "Cuprum", sans-serif;
+$fira: "Fira Sans Extra Condensed", sans-serif;
+$passion: "Passion One", cursive;
+$header: "Krona One", sans-serif;
 
 // To use a font file (.woff) uncomment following lines
 // @font-face {
