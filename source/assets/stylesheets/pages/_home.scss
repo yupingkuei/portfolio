@@ -18,6 +18,7 @@
   }
 }
 .content-wrapper {
+  background-color: $mint;
   position: relative;
   overflow-y: scroll;
   max-height: calc(100vh - 64px);
@@ -41,11 +42,24 @@
 }
 // sections
 .header {
-  height: 100%;
-  background-color: $tart-orange;
+  min-height: calc(100vh - 64px);
+  align-items: center;
   h1 {
-    text-align: center;
     font-size: 88px;
     font-family: $header;
+    writing-mode: vertical-lr;
+    text-orientation: upright;
+    padding: 34px 0 34px 0;
+  }
+  .header-left {
+    background-color: $mint;
+    height: 100%;
+    width: 50%;
+  }
+  .header-right {
+    background-color: $tart-orange;
+    min-height: 100%;
+    width: 50%;
+    height: 100%;
   }
 }
