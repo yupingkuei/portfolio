@@ -23,27 +23,35 @@
   overflow-y: scroll;
   max-height: calc(100vh - 64px);
 }
+.section-margin {
+  margin: 32px;
+}
 // sections
 .header {
-  min-height: calc(100vh - 64px);
-  align-items: center;
+  height: calc(100vh - 64px);
+  display: flex;
   h1 {
     font-size: 88px;
     font-family: $header;
     writing-mode: vertical-lr;
     text-orientation: upright;
-    // careful
-    padding: 34px 0 34px 0;
+    margin: 0;
+    // temp
+    padding: 0 16px;
   }
-  .header-left {
+
+  &-left {
     background-color: $mint;
-    height: 100%;
-    width: 50%;
   }
-  .header-right {
+
+  &-right {
     background-color: $tart-orange;
-    min-height: 100%;
+  }
+
+  &-align {
+    height: calc(100vh - 64px);
     width: 50%;
-    height: 100%;
+    display: flex;
+    align-items: center;
   }
 }
