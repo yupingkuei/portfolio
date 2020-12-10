@@ -11,9 +11,11 @@
   align-items: center;
   ul {
     list-style-type: none;
+    text-decoration: none;
     i {
       width: 16px;
       text-align: center;
+      color: $raisin-black;
     }
   }
 }
@@ -23,8 +25,8 @@
   overflow-y: scroll;
   max-height: calc(100vh - 64px);
 }
-.section-margin {
-  margin: 32px;
+.section-box {
+  margin: 36px;
 }
 // sections
 .header {
