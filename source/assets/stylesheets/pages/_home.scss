@@ -16,6 +16,12 @@
       width: 16px;
       text-align: center;
       color: $raisin-black;
+      transition: 500ms;
+      &:hover {
+        transform: scale(1.2);
+        transform: rotate(30deg);
+        color: $tart-orange;
+      }
     }
   }
 }
@@ -39,7 +45,8 @@
     text-orientation: upright;
     margin: 0;
     // temp
-    padding: 0 16px;
+    padding: 0 32px;
+    text-align: right;
   }
 
   &-left {
@@ -54,6 +61,14 @@
     height: calc(100vh - 64px);
     width: 50%;
     display: flex;
+    justify-content: center;
     align-items: center;
+  }
+}
+//temp intro
+.temp-intro {
+  padding: 32px;
+  h2 {
+    font-family: $cuprum;
   }
 }
