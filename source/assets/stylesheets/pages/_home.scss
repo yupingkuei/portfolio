@@ -35,6 +35,7 @@ h2 {
   position: relative;
   overflow-y: scroll;
   max-height: calc(100vh - 64px);
+  scroll-behavior: smooth;
 }
 .section-box {
   padding: 36px;
@@ -77,15 +78,15 @@ h2 {
     font-family: $cuprum;
   }
 }
-.about {
+#about {
   height: calc(100vh - 64px);
-  background-color: yellow;
+  background-color: pink;
 }
-.projects {
+#projects {
   height: calc(100vh - 64px); // needs to be deleted later
-  background-color: red;
+  background-color: $mint;
 }
-.contact {
+#contact {
   height: calc(100vh - 64px);
-  background-color: blue;
+  background-color: pink;
 }
