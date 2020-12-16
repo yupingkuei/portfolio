@@ -31,7 +31,7 @@ h2 {
   }
 }
 .content-wrapper {
-  background-color: $mint;
+  background-color: $tart-orange;
   position: relative;
   overflow-y: scroll;
   max-height: calc(100vh - 64px);
@@ -44,16 +44,6 @@ h2 {
 .header {
   height: calc(100vh - 64px);
   display: flex;
-  h1 {
-    font-size: 88px;
-    font-family: $header;
-    writing-mode: vertical-lr;
-    text-orientation: upright;
-    margin: 0;
-    // temp
-    padding: 0 32px;
-    text-align: right;
-  }
 
   &-left {
     background-color: $mint;
@@ -61,6 +51,19 @@ h2 {
 
   &-right {
     background-color: $tart-orange;
+    position: relative;
+    h1 {
+      font-size: 88px;
+      font-family: $header;
+      writing-mode: vertical-lr;
+      text-orientation: upright;
+      margin: 0;
+      // temp
+      text-align: right;
+      position: absolute;
+      left: -52px;
+      top: 25px;
+    }
   }
 
   &-align {
