@@ -5,14 +5,14 @@ h2 {
 
 // wrappers
 .main-wrapper {
-  padding: 32px;
+  margin: 32px;
   max-height: 100vh;
   position: relative;
 }
 #social-icons {
   position: absolute;
   top: 40%;
-  right: 8px;
+  right: -24px;
   align-items: center;
   ul {
     list-style-type: none;
@@ -32,9 +32,10 @@ h2 {
 }
 #footer {
   position: absolute;
-  bottom: -4px;
-  right: 32px;
+  bottom: -28px;
+  right: 0px;
   p {
+    margin: 0;
   }
 }
 .content-wrapper {
