@@ -1,8 +1,23 @@
 .project-box {
   display: flex;
+  justify-content: space-between;
+  align-items: center;
 }
 #carouselExampleControls {
+}
+.project-image {
   width: 95%;
 }
 .project-info {
+  width: 95%;
+}
+.project-img {
+  border-radius: 2px;
+}
+.divider {
+  border-bottom: solid 1px rgba(200, 200, 200, 0.6);
+  padding: 16px 0;
+}
+.gap {
+  padding: 16px;
 }
