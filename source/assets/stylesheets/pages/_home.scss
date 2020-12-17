@@ -32,10 +32,13 @@ h2 {
 }
 #footer {
   position: absolute;
-  bottom: -28px;
+  bottom: -20px;
   right: 0px;
   p {
     margin: 0;
+    color: $onyx;
+    font-size: lighter;
+    font-size: 12px;
   }
 }
 .content-wrapper {
@@ -69,6 +72,9 @@ h2 {
 }
 
 @media all and (min-width: 768px) and (max-width: 1024px) {
+  #menu-icon {
+    display: none;
+  }
 }
 
 @media all and (min-width: 480px) and (max-width: 768px) {
