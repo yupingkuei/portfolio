@@ -40,47 +40,6 @@ h2 {
 .section-box {
   padding: 36px;
 }
-// sections
-.header {
-  height: calc(100vh - 64px);
-  display: flex;
-
-  &-left {
-    background-color: $mint;
-  }
-
-  &-right {
-    background-color: $tart-orange;
-    position: relative;
-    h1 {
-      font-size: 88px;
-      font-family: $header;
-      writing-mode: vertical-lr;
-      text-orientation: upright;
-      margin: 0;
-      // temp
-      text-align: right;
-      position: absolute;
-      left: -52px;
-      top: 25px;
-    }
-  }
-
-  &-align {
-    height: calc(100vh - 64px);
-    width: 50%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
-}
-//temp intro
-.temp-intro {
-  padding: 32px;
-  h2 {
-    font-family: $cuprum;
-  }
-}
 #about {
   height: calc(100vh - 64px);
   background-color: pink;
