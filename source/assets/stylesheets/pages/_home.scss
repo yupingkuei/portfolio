@@ -36,7 +36,7 @@ p {
 }
 #footer {
   position: absolute;
-  bottom: -20px;
+  bottom: -24px;
   right: 0px;
   p {
     margin: 0;
@@ -60,11 +60,7 @@ p {
   background-color: pink;
 }
 #projects {
-  background-color: $mint;
-}
-#contact {
-  height: calc(100vh - 64px);
-  background-color: $tart-orange;
+  background-color: $mint-cream;
 }
 
 // media query
@@ -73,15 +69,38 @@ p {
     display: none;
   }
 }
-
-@media all and (min-width: 768px) and (max-width: 1024px) {
+@media all and (min-width: 824px) and (max-width: 1023px) {
   #menu-icon {
     display: none;
   }
+  .email-box {
+    padding: 64px;
+  }
+  #message {
+    width: 380px;
+  }
 }
 
-@media all and (min-width: 480px) and (max-width: 768px) {
+@media all and (min-width: 768px) and (max-width: 823px) {
+  #menu-icon {
+    display: none;
+  }
+  .email-box {
+    padding: 64px;
+  }
+  #message {
+    width: 380px;
+  }
 }
 
-@media all and (max-width: 480px) {
+@media all and (min-width: 480px) and (max-width: 767px) {
+  .email-box {
+    padding: 64px;
+  }
+}
+
+@media all and (max-width: 479px) {
+  .email-box {
+    padding: 64px;
+  }
 }
