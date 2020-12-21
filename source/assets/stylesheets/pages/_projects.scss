@@ -5,6 +5,36 @@
 }
 .project-info {
   width: 95%;
+  a {
+    text-decoration: none;
+    display: inline-block;
+  }
+  .view-live-btn {
+    padding: 8px 16px;
+    margin: 4px;
+    border: solid 1px $tart-orange;
+    border-radius: 24px;
+    text-align: center;
+    color: $tart-orange;
+    &:hover {
+      transition: 700ms;
+      transform: scale(1.05);
+      color: $white;
+      background-color: $tart-orange;
+    }
+  }
+  .view-code-btn {
+    margin: 8px 8px;
+    border-bottom: solid 1px $tart-orange;
+    text-align: center;
+    color: $tart-orange;
+    &:hover {
+      color: $onyx;
+      transition: 700ms;
+      transform: scale(1.05);
+      border: none;
+    }
+  }
 }
 .project-image {
   width: 95%;
