@@ -5,22 +5,26 @@
 }
 .project-info {
   width: 95%;
+  h3 {
+    font-family: $cuprum;
+  }
   a {
     text-decoration: none;
     display: inline-block;
   }
+  .tech-icons {
+    margin: 16px 0;
+  }
   .tech-icon {
     width: 40px;
-    fill: currentColor;
-    color: red;
+    filter: drop-shadow(0.3px 0.5px 0.3px rgba(0, 0, 0, 0.2));
   }
-
   .icon-adjustment {
     padding: 5px 4px;
   }
   .view-live-btn {
     padding: 8px 16px;
-    margin: 4px;
+    margin: 4px 8px 4px 0;
     border: solid 1px $tart-orange;
     border-radius: 24px;
     text-align: center;

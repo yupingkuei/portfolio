@@ -4,6 +4,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Cabin+Sketch:wght@400;700&family=Cuprum:wght@700&family=Fira+Sans+Extra+Condensed:ital,wght@0,600;1,900&family=Passion+One&display=swap");
 // potential header
 @import url("https://fonts.googleapis.com/css2?family=Krona+One&display=swap");
+// potential body fonts
+@import url("https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,300;0,400;1,300;1,400;1,700&display=swap");
 
 // Define fonts for body and headers
 $body-font: "Work Sans", "Helvetica", "sans-serif";
@@ -14,6 +16,7 @@ $cuprum: "Cuprum", sans-serif; //favorite
 $fira: "Fira Sans Extra Condensed", sans-serif;
 $passion: "Passion One", cursive;
 $header: "Krona One", sans-serif;
+$lato: "Lato", sans-serif;
 
 // To use a font file (.woff) uncomment following lines
 // @font-face {
