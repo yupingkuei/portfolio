@@ -1,6 +1,9 @@
 import { showMenu } from "./components/menu-icon.js";
 
 showMenu();
+$(".carousel").carousel({
+  interval: 2000,
+});
 
 // const header = document.querySelector(".header");
 // document.addEventListener("scroll", (event) => {
