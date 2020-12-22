@@ -11,6 +11,15 @@
     color: $tart-orange;
     margin-top: 16px;
   }
+  a {
+    text-decoration: none;
+    &:hover {
+      font-weight: bold;
+    }
+  }
+  .black {
+    color: $raisin-black !important;
+  }
   padding: 32px 80px;
 }
 
@@ -31,6 +40,11 @@
 .tech-stack {
   width: 70px;
   filter: drop-shadow(2px 2px 0.8px rgba(0, 0, 0, 0.2));
+  padding: 4px 8px;
+}
+
+.figma {
+  width: 74px;
 }
 
 .nav-pills .nav-link.active {
