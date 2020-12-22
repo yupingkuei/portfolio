@@ -55,13 +55,6 @@ p {
 .section-box {
   padding: 36px;
 }
-#about {
-  height: calc(100vh - 64px);
-  background-color: pink;
-}
-#projects {
-  background-color: $mint-cream;
-}
 
 // media query
 @media all and (min-width: 1024px) {
