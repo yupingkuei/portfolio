@@ -34,3 +34,22 @@ const type = () => {
   setTimeout(type, 200);
 };
 type();
+
+//scrolling detector
+const sections = document.querySelectorAll("section");
+
+const options = {
+  threshold: 0.7,
+};
+
+const navCheck = (entries) => {
+  entries.forEach((entry) => {
+    const className = entry.target.className;
+    console.log(className);
+  });
+};
+let observer = new IntersectionObserver(navCheck, options);
+
+sections.forEach((section) => {
+  observer.observe(section);
+});
