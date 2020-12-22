@@ -1,4 +1,63 @@
 #about {
   height: calc(100vh - 64px);
   background-color: $light-pink;
+  h2 {
+    display: inline;
+  }
+}
+
+.about {
+  display: flex;
+  justify-content: space-around;
+  height: calc(100vh - 136px);
+  &-left {
+    border: solid 1px red;
+  }
+
+  &-right {
+    border: solid 1px red;
+  }
+  &-align {
+    width: 40%;
+    display: flex;
+    align-items: center;
+  }
+}
+
+.nav-pills .nav-link.active {
+  background-color: $tart-orange;
+  color: white;
+}
+.nav-item {
+  a {
+    color: $tart-orange;
+    border: solid 1px $tart-orange;
+    border-radius: 20px !important;
+    margin: 4px;
+  }
+}
+
+.typing {
+  position: relative;
+  display: inline;
+}
+
+.typing::after {
+  display: inline;
+  content: " ";
+  position: absolute;
+  right: -4px;
+  width: 1px;
+  height: 80%;
+  border-right: 2px solid $onyx;
+  animation: blink 0.5s infinite ease;
+}
+
+@keyframes blink {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
 }

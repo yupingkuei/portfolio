@@ -1,10 +1,14 @@
 //fonts
-h2 {
+h2,
+h3 {
   font-family: $cuprum;
 }
 p {
   font-family: lato;
   line-height: 1.8rem;
+}
+a {
+  font-family: lato;
 }
 
 // wrappers
