@@ -47,42 +47,51 @@
     </div>
     <!--about-->
     <div id="about">
-      <div class="section-box">
-        <div class="about">
-          <div class="about-left about-align">
-            <div>
-              <h2>I'm a </h2>
-              <h2 class='typing'></h2>
-              <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
-                <li class="nav-item">
-                  <a class="nav-link active" id="pills-techstack-tab" data-toggle="pill" href="#pills-techstack" role="tab" aria-controls="pills-techstack" aria-selected="false">Tech Stack</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" id="pills-aboutme-tab" data-toggle="pill" href="#pills-aboutme" role="tab" aria-controls="pills-aboutme" aria-selected="true">About Me</a>
-                </li>
-                <li class="nav-item">
-                  <a class="nav-link" id="pills-contact-tab" data-toggle="pill" href="#pills-contact" role="tab" aria-controls="pills-contact" aria-selected="false">Contact</a>
-                </li>
-              </ul>
-            </div>
+      <div class="about-left about-align">
+        <div>
+          <h2>I'm a </h2>
+          <h2 class='typing'></h2>
+          <ul class="nav nav-pills mb-3" id="pills-tab" role="tablist">
+            <li class="nav-item">
+              <a class="nav-link active" id="pills-techstack-tab" data-toggle="pill" href="#pills-techstack" role="tab" aria-controls="pills-techstack" aria-selected="false">Tech Stack</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" id="pills-aboutme-tab" data-toggle="pill" href="#pills-aboutme" role="tab" aria-controls="pills-aboutme" aria-selected="true">About Me</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="about-right about-align">
+        <div class="tab-content" id="pills-tabContent">
+          <div class="tab-pane fade show active" id="pills-techstack" role="tabpanel" aria-labelledby="pills-techstack-tab">
+            <h3>My tech stack
+            </h3>
+            <h5>Fornt End</h5>
+            <%= image_tag 'html5.svg', class: 'tech-stack' %>
+            <%= image_tag 'css3.svg', class: 'tech-stack' %>
+            <%= image_tag 'javascript.svg', class: 'teck-stack' %>
+            <%= image_tag 'sass.svg', class: 'teck-stack' %>
+            <br/>
+            <h5>Back End</h5>
+            <%= image_tag 'rails.svg', class: 'teck-stack' %>
+            <%= image_tag 'ruby.svg', class: 'teck-stack' %>
+            <%= image_tag 'heroku.svg', class: 'teck-stack' %>
+            <%= image_tag 'mysql.svg', class: 'teck-stack' %>
+            <%= image_tag 'postgresql.svg', class: 'teck-stack' %>
+            <br/>
+            <h5>Other Tools</h5>
+            <%= image_tag 'git.svg', class: 'teck-stack' %>
+            <%= image_tag 'github.svg', class: 'teck-stack' %>
+            <%= image_tag 'figma.svg', class: 'teck-stack' %>
           </div>
-          <div class="about-right about-align">
-            <div class="tab-content" id="pills-tabContent">
-              <div class="tab-pane fade show active" id="pills-techstack" role="tabpanel" aria-labelledby="pills-techstack-tab">
-                <h3>My tech stack
-                </h3>
-              </div>
-              <div class="tab-pane fade " id="pills-aboutme" role="tabpanel" aria-labelledby="pills-aboutme-tab">
-                <h3>About me</h3>
-                <p>I’m Yuping. I was born and raised in 🇹🇼Taiwan. I’ve been living in Tokyo since 2015 and I enjoy its fast-paced lifestyle.<br/>
-                  I have <span class="text-primary">startup</span> and <span class="text-primary">project management</span> experience. Always working with a roll-up-your-sleeves attitude.<br/>
-                  <br/>
-                  Ever since I was a kid, I love drawing, cooking, and making all kind of hand-crafts. Nothing is more satisfied than creating things with my own hands, so is the <span class="text-primary">web product creation</span> to me.<br/>
-                  Among of all the process in product creation, I have fun in the front end field the most.<br/>
-                  I combine my <span class="text-primary">digital arts</span> hobbies into my project design. I'm also passionate about delivering intuitive and delightful UI with my creativity.</p>
-              </div>
-              <div class="tab-pane fade" id="pills-contact" role="tabpanel" aria-labelledby="pills-contact-tab">...</div>
-            </div>
+          <div class="tab-pane fade " id="pills-aboutme" role="tabpanel" aria-labelledby="pills-aboutme-tab">
+            <h3>About me</h3>
+            <p>I’m Yuping. I was born and raised in 🇹🇼Taiwan. I’ve been living in Tokyo since 2015 and I enjoy its fast-paced lifestyle.<br/>
+              I have <span class="text-primary">startup</span> and <span class="text-primary">project management</span> experience. Always working with a roll-up-your-sleeves attitude.<br/>
+              <br/>
+              Ever since I was a kid, I love drawing, cooking, and making all kind of hand-crafts. Nothing is more satisfied than creating things with my own hands, so is the <span class="text-primary">web product creation</span> to me.<br/>
+              Among of all the process in product creation, I have fun in the front end field the most.<br/>
+              I combine my <span class="text-primary">digital arts</span> hobbies into my project design. I'm also passionate about delivering intuitive and delightful UI with my creativity.</p>
           </div>
         </div>
       </div>

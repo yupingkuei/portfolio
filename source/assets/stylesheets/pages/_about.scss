@@ -1,27 +1,36 @@
 #about {
   height: calc(100vh - 64px);
   background-color: $light-pink;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
   h2 {
     display: inline;
   }
+  h5 {
+    color: $tart-orange;
+    margin-top: 16px;
+  }
+  padding: 32px 80px;
 }
 
 .about {
-  display: flex;
-  justify-content: space-around;
-  height: calc(100vh - 136px);
   &-left {
-    border: solid 1px red;
+    width: 40%;
   }
 
   &-right {
-    border: solid 1px red;
+    width: 45%;
   }
   &-align {
-    width: 40%;
     display: flex;
     align-items: center;
   }
+}
+
+.tech-stack {
+  width: 70px;
+  filter: drop-shadow(2px 2px 0.8px rgba(0, 0, 0, 0.2));
 }
 
 .nav-pills .nav-link.active {
@@ -33,7 +42,7 @@
     color: $tart-orange;
     border: solid 1px $tart-orange;
     border-radius: 20px !important;
-    margin: 4px;
+    margin: 8px;
   }
 }
 
