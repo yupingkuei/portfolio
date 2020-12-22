@@ -13,12 +13,7 @@ opening();
 
 //typing effect
 
-const texts = [
-  "Web Developer",
-  "Project Manager",
-  "Digital Artist",
-  "Native Chinese Speaker",
-];
+const texts = ["Web Developer", "Project Manager", "Digital Artist"];
 let count = 0; //count of words
 let index = 0; //index of characters
 let currentText = "";
