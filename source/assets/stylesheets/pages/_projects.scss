@@ -1,5 +1,8 @@
 #projects {
   background-color: $mint-cream;
+  h2 {
+    margin-bottom: 16px;
+  }
 }
 .project-content {
   padding: 16px 0;
@@ -29,7 +32,7 @@
     padding: 5px 4px;
   }
   .view-live-btn {
-    padding: 8px 16px;
+    padding: 8px 16px 4px 16px;
     margin: 4px 8px 4px 0;
     border: solid 1px $tart-orange;
     border-radius: 24px;

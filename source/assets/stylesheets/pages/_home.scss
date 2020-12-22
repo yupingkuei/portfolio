@@ -5,11 +5,11 @@ h5 {
   font-family: $cuprum;
 }
 p {
-  font-family: lato;
+  font-family: $body;
   line-height: 1.8rem;
 }
 a {
-  font-family: lato;
+  font-family: $body;
 }
 
 // wrappers
@@ -20,7 +20,7 @@ a {
 }
 #social-icons {
   position: absolute;
-  top: 40%;
+  top: 37%;
   right: -24px;
   align-items: center;
   ul {
@@ -32,7 +32,6 @@ a {
       color: $raisin-black;
       transition: 500ms;
       &:hover {
-        transform: scale(1.2);
         transform: rotate(30deg);
         color: $tart-orange;
       }
@@ -41,13 +40,13 @@ a {
 }
 #footer {
   position: absolute;
-  bottom: -24px;
+  bottom: -26px;
   right: 0px;
   p {
     margin: 0;
     color: $onyx;
     font-size: lighter;
-    font-size: 12px;
+    font-size: 13px;
   }
 }
 .content-wrapper {
