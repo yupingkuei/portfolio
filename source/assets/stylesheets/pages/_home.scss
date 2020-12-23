@@ -129,37 +129,24 @@ a {
   .email-box {
     padding: 64px;
   }
+  #email {
+    width: 200px !important;
+  }
   #message {
-    width: 380px;
+    width: 360px !important;
   }
 }
 
 @media all and (min-width: 480px) and (max-width: 767px) {
   // All
-  // header
-  // about
-  //projects
-  //contact
-  .email-box {
-    padding: 64px;
-  }
-}
-
-@media all and (max-width: 479px) {
-  // All
-  .main-wrapper {
-    margin: 0;
-  }
   .content-wrapper {
     overflow-x: hidden;
   }
   #bouncing-arrow {
     display: none;
   }
-  #social-icons {
-    display: none;
-  }
-  #footer {
+
+  #menu-icon {
     display: none;
   }
   // header
@@ -211,10 +198,89 @@ a {
     padding: 64px;
   }
   #email {
-    width: 120px !important;
+    width: 200px !important;
   }
   #message {
-    width: 240px !important;
+    width: 220px !important;
+  }
+  .contact-left {
+    padding: 16px;
+  }
+}
+
+@media all and (max-width: 479px) {
+  // All
+  .main-wrapper {
+    margin: 0;
+  }
+  .content-wrapper {
+    overflow-x: hidden;
+  }
+  #bouncing-arrow {
+    display: none;
+  }
+  #social-icons {
+    display: none;
+  }
+  #footer {
+    display: none;
+  }
+  #menu-icon {
+    right: 0;
+  }
+  // header
+  .header {
+    min-height: 100vh;
+  }
+  .header-align {
+    min-height: 100vh;
+  }
+  .intro {
+    padding: 24px 0px 24px 24px !important;
+  }
+  // about
+  #about {
+    min-height: 100vh;
+    display: block !important;
+    max-width: 100vh;
+    padding: 16px !important;
+    .about-left {
+      width: 100%;
+    }
+    .about-right {
+      width: 100%;
+    }
+    .tech-stack {
+      width: 64px;
+      padding: 4px 6px;
+    }
+  }
+  //projects
+  #projects {
+    padding: 16px !important;
+  }
+  .project-box {
+    display: block !important;
+  }
+  .project-image {
+    width: 85% !important;
+  }
+  //contact
+  #contact {
+    min-height: 100vh;
+  }
+  .contact-align {
+    min-height: 100vh;
+  }
+
+  .email-box {
+    padding: 64px;
+  }
+  #email {
+    width: 180px !important;
+  }
+  #message {
+    width: 200px !important;
   }
   .contact-left {
     padding: 16px;
