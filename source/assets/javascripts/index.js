@@ -39,13 +39,25 @@ type();
 const sections = document.querySelectorAll("section");
 
 const options = {
-  rootMargin: "0px 0px -500px 0px",
+  rootMargin: "-100px 0px -500px 0px",
 };
 
 const navCheck = (entries) => {
   entries.forEach((entry) => {
     const className = entry.target.className;
     console.log(className);
+    const activeAnchor = document.querySelector(`[data-page=${className}]`);
+    const top = document.querySelector("#top");
+    if (entry.isIntersecting) {
+      if (entry.target.className !== "header") {
+        activeAnchor.classList.toggle("menu-color");
+        top.style.display = "block";
+      } else {
+        top.style.display = "none";
+      }
+    } else {
+      activeAnchor.classList.remove("menu-color");
+    }
   });
 };
 let observer = new IntersectionObserver(navCheck, options);
