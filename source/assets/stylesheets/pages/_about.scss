@@ -85,3 +85,15 @@
     opacity: 1;
   }
 }
+
+.slide-in {
+  opacity: 0;
+  transition: opacity 250ms ease-in;
+  transform: translateX(20%);
+  transition: transform 500ms ease-in;
+}
+
+.slide-in.appear {
+  opacity: 1;
+  transform: translateX(0);
+}

@@ -18,6 +18,10 @@ a {
   max-height: 100vh;
   position: relative;
 }
+::-webkit-scrollbar {
+  width: 0px; /* Remove scrollbar space */
+  background: transparent; /* Optional: just make scrollbar invisible */
+}
 #social-icons {
   position: absolute;
   top: 37%;
