@@ -39,7 +39,7 @@ type();
 const sections = document.querySelectorAll("section");
 
 const options = {
-  threshold: 0.7,
+  rootMargin: "0px 0px -500px 0px",
 };
 
 const navCheck = (entries) => {
