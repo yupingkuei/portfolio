@@ -36,6 +36,7 @@
   border: solid 2px white;
   box-shadow: 2px 2px 2px rgba(100, 100, 100, 0.6);
   font-family: $body;
+  border-radius: 2px;
 }
 #message {
   width: 460px;
@@ -43,6 +44,7 @@
   border: solid 2px white;
   box-shadow: 2px 2px 2px rgba(100, 100, 100, 0.6);
   font-family: $body;
+  border-radius: 2px;
 }
 .submit-btn {
   color: white;
@@ -51,6 +53,7 @@
   padding: 6px 8px 2px 8px;
   box-shadow: 2px 2px 2px rgba(100, 100, 100, 0.6);
   font-family: $body;
+  border-radius: 2px;
   &:hover {
     background-color: #ed4444;
     transition: 500ms;
