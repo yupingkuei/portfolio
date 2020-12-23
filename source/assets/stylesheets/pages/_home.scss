@@ -38,6 +38,37 @@ a {
     }
   }
 }
+// bouncing arrow
+#bouncing-arrow {
+  display: block;
+  position: absolute;
+  font-weight: lighter;
+  width: 0px;
+  height: 0px;
+  z-index: 100;
+  left: 4px;
+  bottom: 24px;
+  svg {
+    fill: $onyx;
+    font-weight: 100;
+  }
+}
+
+#bouncing-arrow {
+  animation-name: bounce;
+  animation-duration: 1.8s;
+  animation-iteration-count: infinite;
+  animation-timing-function: linear;
+}
+@keyframes bounce {
+  0%,
+  100% {
+    transform: translate3d(0px, 0px, 0px);
+  }
+  50% {
+    transform: translate3d(0px, -10px, 0px);
+  }
+}
 #footer {
   position: absolute;
   bottom: -26px;
