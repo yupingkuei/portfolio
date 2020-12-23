@@ -151,14 +151,27 @@ a {
     margin: 0;
   }
   .content-wrapper {
-    max-height: 100vh;
+    overflow-x: hidden;
   }
   #bouncing-arrow {
     display: none;
   }
+  #social-icons {
+    display: none;
+  }
+  #footer {
+    display: none;
+  }
   // header
+  .header {
+    min-height: 100vh;
+  }
+  .header-align {
+    min-height: 100vh;
+  }
   // about
   #about {
+    min-height: 100vh;
     display: block !important;
     max-width: 100vh;
     padding: 16px !important;
@@ -184,7 +197,23 @@ a {
     width: 85% !important;
   }
   //contact
+  #contact {
+    min-height: 100vh;
+  }
+  .contact-align {
+    min-height: 100vh;
+  }
+
   .email-box {
     padding: 64px;
+  }
+  #email {
+    width: 120px !important;
+  }
+  #message {
+    width: 240px !important;
+  }
+  .contact-left {
+    padding: 16px;
   }
 }
