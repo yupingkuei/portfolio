@@ -35,7 +35,7 @@ const type = () => {
 };
 type();
 
-//scrolling detector
+// scrolling detector
 const sections = document.querySelectorAll("section");
 
 const options = {
@@ -64,4 +64,29 @@ let observer = new IntersectionObserver(navCheck, options);
 
 sections.forEach((section) => {
   observer.observe(section);
+});
+// scrolling fade-in
+const faders = document.querySelectorAll(".fade-in");
+const appearOptions = {
+  threshold: 0,
+  rootMargin: "-200px 0px -200px 0px",
+};
+
+const appearOnScroll = new IntersectionObserver(function (
+  entries,
+  appearOnScroll
+) {
+  entries.forEach((entry) => {
+    if (!entry.isIntersecting) {
+      return;
+    } else {
+      entry.target.classList.add("appear");
+      appearOnScroll.unobserve(entry.target);
+    }
+  });
+},
+appearOptions);
+
+faders.forEach((fader) => {
+  appearOnScroll.observe(fader);
 });
