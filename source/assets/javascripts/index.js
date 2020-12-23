@@ -3,7 +3,10 @@ import { opening } from "./components/opening.js";
 import { type } from "./components/typing.js";
 
 showMenu();
-opening();
+if (window.innerWidth > 479) {
+  opening();
+}
+
 type();
 
 // scrolling detector
