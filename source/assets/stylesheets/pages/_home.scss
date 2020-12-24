@@ -181,10 +181,16 @@ a {
     padding: 16px !important;
   }
   .project-box {
-    display: block !important;
+    display: table !important;
   }
   .project-image {
     width: 85% !important;
+  }
+  .project-image {
+    display: table-header-group;
+  }
+  .project-info {
+    display: table-footer-group;
   }
   //contact
   #contact {
@@ -260,11 +266,18 @@ a {
     padding: 16px !important;
   }
   .project-box {
-    display: block !important;
+    display: table !important;
   }
   .project-image {
     width: 85% !important;
   }
+  .project-image {
+    display: table-header-group;
+  }
+  .project-info {
+    display: table-footer-group;
+  }
+
   //contact
   #contact {
     min-height: 100vh;
