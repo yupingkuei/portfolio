@@ -3,6 +3,16 @@ import { opening } from "./components/opening.js";
 import { type } from "./components/typing.js";
 
 showMenu();
+const menu = document.querySelector("#menu");
+const menuIcon = document.querySelector("#menu-icon");
+const test = () => {
+  menu.addEventListener("click", () => {
+    menuIcon.classList.toggle("open");
+    menu.classList.toggle("show");
+  });
+};
+test();
+
 if (window.innerWidth > 767) {
   opening();
 } else if (window.innerWidth < 479) {
