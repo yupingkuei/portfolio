@@ -88,6 +88,7 @@ a {
   background-color: $tart-orange;
   position: relative;
   overflow-y: scroll;
+  overflow-x: hidden;
   max-height: calc(100vh - 64px);
   scroll-behavior: smooth;
 }
