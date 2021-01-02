@@ -248,6 +248,9 @@ a {
   .main-wrapper {
     margin: 0;
   }
+  .content-wrapper {
+    min-height: 100vh;
+  }
   #bouncing-arrow {
     display: none;
   }
