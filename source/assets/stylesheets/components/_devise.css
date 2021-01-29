@@ -65,7 +65,7 @@
   border: solid rgba(51, 51, 51, 0.25);
   border-width: 0 7px;
   content: "";
-  height: 7px;
+  height: 3.5px;
   left: 0;
   position: absolute;
   width: 100%;
@@ -73,77 +73,45 @@
 }
 
 .device-iphone-x .device-stripe::after {
-  top: 85px;
+  top: 42.5px;
 }
 
 .device-iphone-x .device-stripe::before {
-  bottom: 85px;
-}
-
-.device-iphone-x .device-header {
-  background: #222;
-  border-bottom-left-radius: 20px;
-  border-bottom-right-radius: 20px;
-  height: 30px;
-  left: 50%;
-  margin-left: -102px;
-  position: absolute;
-  top: 28px;
-  width: 204px;
-}
-
-.device-iphone-x .device-header::after,
-.device-iphone-x .device-header::before {
-  content: "";
-  height: 10px;
-  position: absolute;
-  top: 0;
-  width: 10px;
-}
-
-.device-iphone-x .device-header::after {
-  background: radial-gradient(
-    circle at bottom left,
-    transparent 0,
-    transparent 75%,
-    #222 75%,
-    #222 100%
-  );
-  left: -10px;
+  bottom: 42.5px;
 }
 
 .device-iphone-x .device-btns {
   background: #c8cacb;
-  height: 32px;
-  left: -3px;
+  height: 16px;
+  left: -1.5px;
   position: absolute;
-  top: 115px;
-  width: 3px;
+  top: 57.5px;
+  width: 1.5px;
 }
 
 .device-iphone-x .device-btns::after,
 .device-iphone-x .device-btns::before {
   background: #c8cacb;
   content: "";
-  height: 62px;
+  height: 31px;
   left: 0;
   position: absolute;
-  width: 3px;
+  width: 1.5px;
 }
 
 .device-iphone-x .device-btns::after {
-  top: 60px;
+  top: 30px;
 }
 
 .device-iphone-x .device-btns::before {
-  top: 140px;
+  top: 70px;
 }
 
 .device-iphone-x .device-power {
   background: #c8cacb;
-  height: 100px;
+  height: 50px;
   position: absolute;
-  right: -3px;
-  top: 200px;
-  width: 3px;
+  right: -2px;
+  top: 100px;
+  width: 2px;
 }
