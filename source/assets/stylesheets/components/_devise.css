@@ -1,0 +1,142 @@
+/*! Devices.css v0.1.16 | MIT License | github.com/picturepan2/devices.css */
+.device-box {
+  display: flex;
+  justify-content: space-around;
+  width: 95%;
+  margin: 0 30px;
+}
+.device,
+.device::before,
+.device::after,
+.device *,
+.device *::before,
+.device *::after {
+  box-sizing: border-box;
+  display: block;
+}
+
+.device {
+  position: relative;
+  transform: scale(1);
+  z-index: 1;
+}
+
+.device .device-frame {
+  z-index: 1;
+}
+
+.device .device-content {
+  background-image: url("../images/liars-dice-show.png");
+  background-position: center center;
+  background-size: cover;
+  object-fit: cover;
+  position: relative;
+}
+
+.device-iphone-x {
+  height: 434px;
+  width: 214px;
+}
+
+.device-iphone-x .device-frame {
+  background: #222;
+  border-radius: 34px;
+  box-shadow: inset 0 0 2px 2px #c8cacb, inset 0 0 0 7px #e2e3e4;
+  height: 434px;
+  padding: 14px;
+  width: 214px;
+}
+
+.device-iphone-x .device-content {
+  border-radius: 20px;
+  height: 406px;
+  width: 187.5px;
+}
+
+.device-iphone-x .device-stripe::after,
+.device-iphone-x .device-stripe::before {
+  border: solid rgba(51, 51, 51, 0.25);
+  border-width: 0 7px;
+  content: "";
+  height: 7px;
+  left: 0;
+  position: absolute;
+  width: 100%;
+  z-index: 9;
+}
+
+.device-iphone-x .device-stripe::after {
+  top: 85px;
+}
+
+.device-iphone-x .device-stripe::before {
+  bottom: 85px;
+}
+
+.device-iphone-x .device-header {
+  background: #222;
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
+  height: 30px;
+  left: 50%;
+  margin-left: -102px;
+  position: absolute;
+  top: 28px;
+  width: 204px;
+}
+
+.device-iphone-x .device-header::after,
+.device-iphone-x .device-header::before {
+  content: "";
+  height: 10px;
+  position: absolute;
+  top: 0;
+  width: 10px;
+}
+
+.device-iphone-x .device-header::after {
+  background: radial-gradient(
+    circle at bottom left,
+    transparent 0,
+    transparent 75%,
+    #222 75%,
+    #222 100%
+  );
+  left: -10px;
+}
+
+.device-iphone-x .device-btns {
+  background: #c8cacb;
+  height: 32px;
+  left: -3px;
+  position: absolute;
+  top: 115px;
+  width: 3px;
+}
+
+.device-iphone-x .device-btns::after,
+.device-iphone-x .device-btns::before {
+  background: #c8cacb;
+  content: "";
+  height: 62px;
+  left: 0;
+  position: absolute;
+  width: 3px;
+}
+
+.device-iphone-x .device-btns::after {
+  top: 60px;
+}
+
+.device-iphone-x .device-btns::before {
+  top: 140px;
+}
+
+.device-iphone-x .device-power {
+  background: #c8cacb;
+  height: 100px;
+  position: absolute;
+  right: -3px;
+  top: 200px;
+  width: 3px;
+}
