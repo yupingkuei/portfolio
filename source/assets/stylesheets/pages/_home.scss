@@ -133,6 +133,9 @@ a {
   // header
   // about
   //projects
+  .device-liars-dice-index {
+    display: none;
+  }
   // contact
   .email-box {
     padding: 64px;
@@ -153,6 +156,9 @@ a {
   // header
   // about
   //projects
+  .device-liars-dice-index {
+    display: none;
+  }
   //contact
   .email-box {
     padding: 64px;
@@ -213,6 +219,12 @@ a {
   }
   .project-image {
     width: 85% !important;
+  }
+  .device-liars-dice-index {
+    display: none;
+  }
+  .device-image {
+    display: table-header-group;
   }
   .project-image {
     display: table-header-group;
@@ -327,6 +339,12 @@ a {
   }
   .project-image {
     width: 85% !important;
+  }
+  .device-liars-dice-index {
+    display: none;
+  }
+  .device-image {
+    display: table-header-group;
   }
   .project-image {
     display: table-header-group;

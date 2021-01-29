@@ -1,9 +1,10 @@
 /*! Devices.css v0.1.16 | MIT License | github.com/picturepan2/devices.css */
+.device-image {
+  width: 95%;
+}
 .device-box {
   display: flex;
   justify-content: space-around;
-  width: 95%;
-  margin: 0 30px;
 }
 .device,
 .device::before,
@@ -26,11 +27,11 @@
 }
 
 .device-background-index {
-  background-image: url("../images/liars-dice-index.png");
+  background-image: url("../images/liars-dice-lobby.png");
 }
 
 .device-background-show {
-  background-image: url("../images/liars-dice-show.png");
+  background-image: url("../images/liars-dice-game.png");
 }
 
 .device .device-content {
