@@ -1,6 +1,9 @@
 import { showMenu } from "./components/menu-icon.js";
 import { opening } from "./components/opening.js";
 import { type } from "./components/typing.js";
+import { showFooter } from "./components/footer.js";
+
+showFooter();
 
 showMenu();
 const menu = document.querySelector("#menu");
@@ -11,6 +14,7 @@ const test = () => {
     menu.classList.toggle("show");
   });
 };
+
 test();
 
 if (window.innerWidth > 767) {
